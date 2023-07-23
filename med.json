@@ -1,0 +1,10 @@
+[
+    {
+        "number": 1,
+        "name": "Panadol Extra",
+        "describtion": "This is a description",
+        "price": "35.50",
+        "image": "panadol.png",
+        "pindex": null
+    }
+]

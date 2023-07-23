@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background-image: url(istockphoto-531628776-170667a.jpg);
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 100%;
+  } 
+  /*nav style*/ 
+  nav{
+    background-color: white;
+    height: 50px;
+  }
+  .navbutton{
+    height: 37.5px;
+    background-color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #03989e;
+    border: 0;
+    margin-top: 6.25px;
+    margin-left: 15px;
+    margin-bottom: 6.25px;
+    cursor: pointer;
+    padding-left: 2px;
+    padding-right: 2px;
+  }
+  .navbutton:hover{
+    background-color: lightgrey;
+    border-radius: 5%;
+  }
+  .navbutton2{
+    height: 37.5px;
+    background-color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: red;
+    border: 0;
+    margin-top: 6.25px;
+    margin-left: 15px;
+    margin-bottom: 6.25px;
+    cursor: pointer;
+    padding-left: 2px;
+    padding-right: 2px;
+  }
+  .navbutton2:hover{
+    background-color: RGB(255,0,0,50);
+    color: #ffffff;
+    border-radius: 5%;
+  }
+  .liorder{
+    display: inline-flex;vertical-align: top;
+  }  
+body {
+    background-image: url(istockphoto-531628776-170667a.jpg);
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 100%;
+} 
+
+table {
+    display: flexbox;
+    border: 1px solid white;
+    border-top: 0.5px solid grey;
+    border-left: 0.5px solid grey;
+    background-color: white;
+    box-shadow: 2.25px 2.25px  #636465 ;
+    border-collapse: collapse;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+
+}
+
+thead {
+    border-bottom: 2px solid#000000;
+    background-color: lightblue;
+}
+
+.column {
+    border-right: 2px solid #000000;
+}
+
+th {
+    padding: 15px;
+    font-size: 18px;
+    text-align: center;
+}
+
+td {
+    padding: 13px;
+    font-size: 17px;
+    text-align: center;
+}
+
+tr {
+    border-bottom: 2px solid #000000;
+}
+
+/*footer style*/
+footer{
+    background-color: white;
+    height: 45px;
+    vertical-align: bottom;
+    display: flex;
+    margin-top: 8%;
+}
+.fbutton{
+    height: 30px;
+    background-color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #03989e;
+    border: 0;
+    margin-top: 6.25px;
+    margin-bottom: 2px;
+    padding-left: 2px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+.fbutton:hover{
+    background-color: lightgrey;
+    border-radius: 5%;
+}
+footer .footer{
+    margin-top: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+}

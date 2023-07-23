@@ -1,0 +1,131 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(istockphoto-531628776-170667a.jpg);
+  margin: 0;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  width: 100%;
+} 
+/*nav style*/ 
+nav{
+  background-color: white;
+  height: 50px;
+}
+.navbutton{
+  height: 37.5px;
+  background-color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #03989e;
+  border: 0;
+  margin-top: 6.25px;
+  margin-bottom: 6.25px;
+  cursor: pointer;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+.navbutton:hover{
+  background-color: lightgrey;
+  border-radius: 5%;
+}
+
+.liorder{
+  display: inline-flex;vertical-align: top;
+}
+
+table {
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+td {
+  padding: 10px;
+  border: 1px solid black;
+}
+
+table img {
+  display: block;
+  margin: auto;
+}
+
+table td:nth-child(2) {
+  font-weight: bold;
+}
+
+table td:nth-child(3) {
+  padding-left: 20px;
+}
+
+table p {
+  font-weight: bold;
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+table input[type="number"] {
+  width: 60px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+table input[type="button"] {
+  background-color: #f44336;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+input[type="submit"] {
+  background-color: #007bff;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 10px 20px;
+}
+
+/*footer style*/
+footer{
+  background-color: white;
+  height: 45px;
+  vertical-align: bottom;
+  display: flex;
+  margin-top: 11%;
+}
+.fbutton{
+  height: 30px;
+  background-color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #03989e;
+  border: 0;
+  margin-top: 6.25px;
+  margin-bottom: 2px;
+  padding-left: 2px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+.fbutton:hover{
+  background-color: lightgrey;
+  border-radius: 5%;
+}
+footer .footer{
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+}

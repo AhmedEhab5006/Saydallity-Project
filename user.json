@@ -1,0 +1,28 @@
+[
+    {
+        "NO.": null,
+        "firstname": null,
+        "lastname": null,
+        "UserName": "SAYDALITI PHARMACY",
+        "EMail": "S\u064aDILITI@gmail.com",
+        "PassWord": "$2y$10$t8P600jTevS0E285PADtQu58ynTYh4W0aCY1naMOqcURUXP1JEj.C",
+        "UserTYpe": "ADMIN",
+        "tel": "19901",
+        "adress": null,
+        "city": null,
+        "unique-id": null
+    },
+    {
+        "NO.": 1,
+        "firstname": "ahmed",
+        "lastname": "ashraf",
+        "UserName": "ahmedash",
+        "EMail": "ahmedash99242@gmail.com",
+        "PassWord": "$2y$10$lEghoCmN2jozJtEyV8qsiu6NI\/7bFCdSucMJrx5SoPjk6BCm5Hkaa",
+        "UserTYpe": "Client",
+        "tel": "01067734319",
+        "adress": "yyyyyyyyyyyyyyyyyyyyyyyyyy",
+        "city": "GIZA",
+        "unique-id": 4874284
+    }
+]
